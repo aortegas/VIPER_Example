@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D344DFA81DB9FAF300BA1286 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D344DFA71DB9FAF300BA1286 /* DataBase.swift */; };
 		D38D082D1DABE15D006268FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D082C1DABE15D006268FA /* AppDelegate.swift */; };
-		D38D082F1DABE15D006268FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D082E1DABE15D006268FA /* ViewController.swift */; };
-		D38D08321DABE15D006268FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38D08301DABE15D006268FA /* Main.storyboard */; };
 		D38D08341DABE15D006268FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38D08331DABE15D006268FA /* Assets.xcassets */; };
 		D38D08371DABE15D006268FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38D08351DABE15D006268FA /* LaunchScreen.storyboard */; };
+		D38D083F1DABE26A006268FA /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D083E1DABE26A006268FA /* Entity.swift */; };
+		D38D08431DABE9B0006268FA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08421DABE9B0006268FA /* TableViewController.swift */; };
+		D38D08451DABE9DF006268FA /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08441DABE9DF006268FA /* AddItemViewController.swift */; };
+		D38D08541DAE3B44006268FA /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38D08531DAE3B44006268FA /* TableView.xib */; };
+		D38D08561DAE3CB0006268FA /* AddItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38D08551DAE3CB0006268FA /* AddItemView.xib */; };
+		D38D085F1DAEA450006268FA /* AddItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D085E1DAEA450006268FA /* AddItemPresenter.swift */; };
+		D38D08611DAEA47D006268FA /* TablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08601DAEA47D006268FA /* TablePresenter.swift */; };
+		D38D086A1DAEB3CB006268FA /* TableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08691DAEB3CB006268FA /* TableInteractor.swift */; };
+		D38D086C1DAEB3F5006268FA /* AddItemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D086B1DAEB3F5006268FA /* AddItemInteractor.swift */; };
+		D38D08731DAF8DC1006268FA /* TableRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08721DAF8DC1006268FA /* TableRouting.swift */; };
+		D38D08791DAF957A006268FA /* TableIInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08781DAF957A006268FA /* TableIInteractorProtocol.swift */; };
+		D38D087B1DAF95EF006268FA /* TableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D087A1DAF95EF006268FA /* TableViewProtocol.swift */; };
+		D38D087F1DAFA306006268FA /* TablePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D087E1DAFA306006268FA /* TablePresenterProtocol.swift */; };
+		D38D08811DAFA52C006268FA /* TableRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08801DAFA52C006268FA /* TableRoutingProtocol.swift */; };
+		D38D08831DAFBA52006268FA /* AddItemRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08821DAFBA52006268FA /* AddItemRouting.swift */; };
+		D38D08851DAFCDD5006268FA /* AddItemViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08841DAFCDD5006268FA /* AddItemViewProtocol.swift */; };
+		D38D08871DAFCE26006268FA /* AddItemInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D08861DAFCE26006268FA /* AddItemInteractorProtocol.swift */; };
+		D38D088B1DAFD0FC006268FA /* AddItemPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D088A1DAFD0FC006268FA /* AddItemPresenterProtocol.swift */; };
+		D38D088D1DAFFE8D006268FA /* AddItemRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D088C1DAFFE8D006268FA /* AddItemRoutingProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D344DFA71DB9FAF300BA1286 /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		D38D08291DABE15D006268FA /* VIPER_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38D082C1DABE15D006268FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D38D082E1DABE15D006268FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D38D08311DABE15D006268FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D38D08331DABE15D006268FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38D08361DABE15D006268FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38D08381DABE15D006268FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38D083E1DABE26A006268FA /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		D38D08421DABE9B0006268FA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D38D08441DABE9DF006268FA /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		D38D08531DAE3B44006268FA /* TableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableView.xib; sourceTree = "<group>"; };
+		D38D08551DAE3CB0006268FA /* AddItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddItemView.xib; sourceTree = "<group>"; };
+		D38D085E1DAEA450006268FA /* AddItemPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemPresenter.swift; sourceTree = "<group>"; };
+		D38D08601DAEA47D006268FA /* TablePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablePresenter.swift; sourceTree = "<group>"; };
+		D38D08691DAEB3CB006268FA /* TableInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableInteractor.swift; sourceTree = "<group>"; };
+		D38D086B1DAEB3F5006268FA /* AddItemInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemInteractor.swift; sourceTree = "<group>"; };
+		D38D08721DAF8DC1006268FA /* TableRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRouting.swift; sourceTree = "<group>"; };
+		D38D08781DAF957A006268FA /* TableIInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableIInteractorProtocol.swift; sourceTree = "<group>"; };
+		D38D087A1DAF95EF006268FA /* TableViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewProtocol.swift; sourceTree = "<group>"; };
+		D38D087E1DAFA306006268FA /* TablePresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablePresenterProtocol.swift; sourceTree = "<group>"; };
+		D38D08801DAFA52C006268FA /* TableRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRoutingProtocol.swift; sourceTree = "<group>"; };
+		D38D08821DAFBA52006268FA /* AddItemRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemRouting.swift; sourceTree = "<group>"; };
+		D38D08841DAFCDD5006268FA /* AddItemViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewProtocol.swift; sourceTree = "<group>"; };
+		D38D08861DAFCE26006268FA /* AddItemInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemInteractorProtocol.swift; sourceTree = "<group>"; };
+		D38D088A1DAFD0FC006268FA /* AddItemPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemPresenterProtocol.swift; sourceTree = "<group>"; };
+		D38D088C1DAFFE8D006268FA /* AddItemRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemRoutingProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +91,79 @@
 			isa = PBXGroup;
 			children = (
 				D38D082C1DABE15D006268FA /* AppDelegate.swift */,
-				D38D082E1DABE15D006268FA /* ViewController.swift */,
-				D38D08301DABE15D006268FA /* Main.storyboard */,
-				D38D08331DABE15D006268FA /* Assets.xcassets */,
-				D38D08351DABE15D006268FA /* LaunchScreen.storyboard */,
-				D38D08381DABE15D006268FA /* Info.plist */,
+				D38D086F1DAF8D79006268FA /* Routings */,
+				D38D08661DAEB301006268FA /* Interactors */,
+				D38D085B1DAE938D006268FA /* Presenters */,
+				D38D08461DABEC34006268FA /* Views */,
+				D38D086D1DAEB584006268FA /* Models */,
+				D38D08471DABEC4F006268FA /* Common */,
 			);
 			path = VIPER_Example;
+			sourceTree = "<group>";
+		};
+		D38D08461DABEC34006268FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D38D087A1DAF95EF006268FA /* TableViewProtocol.swift */,
+				D38D08421DABE9B0006268FA /* TableViewController.swift */,
+				D38D08841DAFCDD5006268FA /* AddItemViewProtocol.swift */,
+				D38D08441DABE9DF006268FA /* AddItemViewController.swift */,
+				D38D08531DAE3B44006268FA /* TableView.xib */,
+				D38D08551DAE3CB0006268FA /* AddItemView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D38D08471DABEC4F006268FA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08331DABE15D006268FA /* Assets.xcassets */,
+				D38D08381DABE15D006268FA /* Info.plist */,
+				D38D08351DABE15D006268FA /* LaunchScreen.storyboard */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D38D085B1DAE938D006268FA /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				D38D087E1DAFA306006268FA /* TablePresenterProtocol.swift */,
+				D38D08601DAEA47D006268FA /* TablePresenter.swift */,
+				D38D088A1DAFD0FC006268FA /* AddItemPresenterProtocol.swift */,
+				D38D085E1DAEA450006268FA /* AddItemPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		D38D08661DAEB301006268FA /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08781DAF957A006268FA /* TableIInteractorProtocol.swift */,
+				D38D08691DAEB3CB006268FA /* TableInteractor.swift */,
+				D38D08861DAFCE26006268FA /* AddItemInteractorProtocol.swift */,
+				D38D086B1DAEB3F5006268FA /* AddItemInteractor.swift */,
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		D38D086D1DAEB584006268FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D38D083E1DABE26A006268FA /* Entity.swift */,
+				D344DFA71DB9FAF300BA1286 /* DataBase.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D38D086F1DAF8D79006268FA /* Routings */ = {
+			isa = PBXGroup;
+			children = (
+				D38D08801DAFA52C006268FA /* TableRoutingProtocol.swift */,
+				D38D08721DAF8DC1006268FA /* TableRouting.swift */,
+				D38D088C1DAFFE8D006268FA /* AddItemRoutingProtocol.swift */,
+				D38D08821DAFBA52006268FA /* AddItemRouting.swift */,
+			);
+			name = Routings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,11 +193,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = aortegas;
 				TargetAttributes = {
 					D38D08281DABE15D006268FA = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -122,9 +225,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38D08561DAE3CB0006268FA /* AddItemView.xib in Resources */,
 				D38D08371DABE15D006268FA /* LaunchScreen.storyboard in Resources */,
+				D38D08541DAE3B44006268FA /* TableView.xib in Resources */,
 				D38D08341DABE15D006268FA /* Assets.xcassets in Resources */,
-				D38D08321DABE15D006268FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +239,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38D082F1DABE15D006268FA /* ViewController.swift in Sources */,
+				D38D08851DAFCDD5006268FA /* AddItemViewProtocol.swift in Sources */,
+				D38D087B1DAF95EF006268FA /* TableViewProtocol.swift in Sources */,
+				D38D08731DAF8DC1006268FA /* TableRouting.swift in Sources */,
+				D344DFA81DB9FAF300BA1286 /* DataBase.swift in Sources */,
+				D38D083F1DABE26A006268FA /* Entity.swift in Sources */,
+				D38D08451DABE9DF006268FA /* AddItemViewController.swift in Sources */,
+				D38D088D1DAFFE8D006268FA /* AddItemRoutingProtocol.swift in Sources */,
+				D38D08831DAFBA52006268FA /* AddItemRouting.swift in Sources */,
+				D38D088B1DAFD0FC006268FA /* AddItemPresenterProtocol.swift in Sources */,
+				D38D08811DAFA52C006268FA /* TableRoutingProtocol.swift in Sources */,
+				D38D08431DABE9B0006268FA /* TableViewController.swift in Sources */,
+				D38D08611DAEA47D006268FA /* TablePresenter.swift in Sources */,
+				D38D085F1DAEA450006268FA /* AddItemPresenter.swift in Sources */,
+				D38D08871DAFCE26006268FA /* AddItemInteractorProtocol.swift in Sources */,
+				D38D08791DAF957A006268FA /* TableIInteractorProtocol.swift in Sources */,
+				D38D087F1DAFA306006268FA /* TablePresenterProtocol.swift in Sources */,
+				D38D086C1DAEB3F5006268FA /* AddItemInteractor.swift in Sources */,
+				D38D086A1DAEB3CB006268FA /* TableInteractor.swift in Sources */,
 				D38D082D1DABE15D006268FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +264,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D38D08301DABE15D006268FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D38D08311DABE15D006268FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D38D08351DABE15D006268FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -176,8 +289,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -221,8 +336,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,6 +358,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -253,6 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.aortegas.VIPER-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +383,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.aortegas.VIPER-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +406,7 @@
 				D38D083D1DABE15D006268FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
